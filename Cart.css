@@ -1,0 +1,17 @@
+.cart,
+.cart-child {
+  width: 546px;
+  height: 1220px;
+}
+.cart-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+}
+.cart {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
